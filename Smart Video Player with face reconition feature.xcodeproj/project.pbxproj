@@ -13,6 +13,7 @@
 		38485F522929C03F00EDFFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38485F502929C03F00EDFFFD /* Main.storyboard */; };
 		38485F542929C04100EDFFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38485F532929C04100EDFFFD /* Assets.xcassets */; };
 		38485F572929C04100EDFFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38485F552929C04100EDFFFD /* LaunchScreen.storyboard */; };
+		38485F632929C69F00EDFFFD /* 20210629_010524.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38485F622929C69F00EDFFFD /* 20210629_010524.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		38485F532929C04100EDFFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38485F562929C04100EDFFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38485F582929C04100EDFFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38485F622929C69F00EDFFFD /* 20210629_010524.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20210629_010524.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		38485F492929C03F00EDFFFD /* Smart Video Player with face reconition feature */ = {
 			isa = PBXGroup;
 			children = (
+				38485F622929C69F00EDFFFD /* 20210629_010524.mp4 */,
 				38485F4A2929C03F00EDFFFD /* AppDelegate.swift */,
 				38485F4C2929C03F00EDFFFD /* SceneDelegate.swift */,
 				38485F4E2929C03F00EDFFFD /* ViewController.swift */,
@@ -128,6 +131,7 @@
 				38485F572929C04100EDFFFD /* LaunchScreen.storyboard in Resources */,
 				38485F542929C04100EDFFFD /* Assets.xcassets in Resources */,
 				38485F522929C03F00EDFFFD /* Main.storyboard in Resources */,
+				38485F632929C69F00EDFFFD /* 20210629_010524.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +298,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
